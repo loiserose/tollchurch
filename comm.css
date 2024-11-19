@@ -1,0 +1,60 @@
+
+  /* Fade-in animation */
+  .fade-in {
+    animation: fadeIn 1.5s ease-in;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Infinite rotating effect for the image */
+  .rotating-img {
+    animation: rotateImage 10s linear infinite;
+  }
+
+  @keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Additional styles for buttons and text */
+  .btn-light {
+    background-color: #fff;
+    color: #FFB732;
+    border: solid 2px #FFB732;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .btn-light:hover {
+  
+    color: white;
+  }
+
+  h3, p {
+    font-family: 'Arial', sans-serif;
+  }
+
+
+Optional CSS for Fade-In Scroll Effect 
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+

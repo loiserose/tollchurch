@@ -1,0 +1,33 @@
+body {
+ 
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+#latest-sermon {
+    /* */
+    border-radius: 8px;
+    /* box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.1); */
+    padding: 40px;
+}
+.text-center h2, .sermon-text h3 {
+    color: #FFB732;
+}
+.sermon-text p {
+    color: #e0e0e0;
+}
+.btn-theme {
+    background-color: #FFB732;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+}
+.btn-theme:hover {
+    background-color: #e6a321;
+    color: #fff;
+}
+.sermon-image img {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
